@@ -1,0 +1,11 @@
+try {
+    #I divisor = 0;
+    #F result = 10 / divisor; 
+    throw(ExceptionDivideByZero ,e);
+
+}
+ catch (ExceptionDivideByZero, e) {
+    write("Error Division by zero");
+};
+ 
+// this is a comment

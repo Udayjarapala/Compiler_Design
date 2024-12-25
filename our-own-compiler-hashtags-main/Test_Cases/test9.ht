@@ -1,0 +1,5 @@
+#L my_tuple = [1, "apple", 3.14];
+#I first_element = my_tuple((0));
+#S second_element = my_tuple((1));
+write(first_element); // Output: 1
+write(second_element); // Output: "apple"

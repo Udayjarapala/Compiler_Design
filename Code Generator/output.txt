@@ -1,0 +1,49 @@
+(module
+  (memory $mem 1)
+  (export "memory" (memory $mem))
+  ;; Function Definition
+(func $add (param $a i32) (param $b i32) (result i32)
+    (i32.add
+      (local.get $a)
+      (local.get $b)
+    )
+    return
+)
+  (export "add" (func $add))
+  ;; Function Definition
+(func $sub (param $c i32) (param $d i32) (result i32)
+    (i32.sub
+      (local.get $c)
+      (local.get $d)
+    )
+    return
+)
+  (export "sub" (func $sub))
+  ;; Function Definition
+(func $mul (param $e i32) (param $f i32) (result i32)
+    (i32.mul
+      (local.get $e)
+      (local.get $f)
+    )
+    return
+)
+  (export "mul" (func $mul))
+  ;; Function Definition
+(func $div (param $g i32) (param $h i32) (result i32)
+    (i32.div_s
+      (local.get $g)
+      (local.get $h)
+    )
+    return
+)
+  (export "div" (func $div))
+  ;; Function Definition
+(func $mod (param $i i32) (param $j i32) (result i32)
+    (i32.rem_s
+      (local.get $i)
+      (local.get $j)
+    )
+    return
+)
+  (export "mod" (func $mod))
+)

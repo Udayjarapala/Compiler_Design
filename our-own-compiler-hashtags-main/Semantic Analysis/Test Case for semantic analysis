@@ -1,0 +1,35 @@
+#I xy= 9;
+#I x = 11;
+x =  10;
+
+if(x < 9){
+#I z = 10;
+
+}
+
+else{
+
+#I yui = 100;
+}
+
+repeat(x = 5; x < 6; ++x){
+
+#S h = "string";
+}
+
+loopy(xy >  10){
+
+xy = xy + xy + 1;
+
+}
+
+write(xy,"printing");
+
+define #I duck(#I vu, #S i){
+  vu = 19;
+  i = "string";
+  xy = duck(5,"string");
+  submit vu;
+}
+
+#L my_list = [5,"string"];

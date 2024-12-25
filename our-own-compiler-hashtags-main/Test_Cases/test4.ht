@@ -1,0 +1,6 @@
+#I x = 0;
+loopy (x < 5){
+    write(x);
+    ++x;
+}
+// Output: 01234

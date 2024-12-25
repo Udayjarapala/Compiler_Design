@@ -1,0 +1,4 @@
+#L my_list = [1, 2, 3];
+my_list.ladd(4);
+my_list.lcut(1, 2);
+write(my_list); // Output: [1, 3, 4]

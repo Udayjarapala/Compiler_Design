@@ -1,0 +1,8 @@
+#I x = 5;
+#I y = 10;
+if (x < y) {
+    write("x is less than y");
+} else {
+    write("x is greater than or equal to y");
+}
+// Output: "x is less than y"

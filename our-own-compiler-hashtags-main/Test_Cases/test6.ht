@@ -1,0 +1,7 @@
+define summ(#I a, #I b) {
+    #I result = a + b;
+    submit result;
+}
+
+#I sum = summ(3, 4);
+write(sum); // Output: 7

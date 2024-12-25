@@ -1,0 +1,9 @@
+let x = 5 in {
+    let y = x * 2 in {
+        #I z = y + 3;
+        submit z;
+    }
+
+    submit x;
+}
+// Output: 13

@@ -1,0 +1,19 @@
+define #I add(#I a,#I b){ 
+      submit a+b;
+}
+
+define #I sub(#I c,#I d){
+      submit c-d;
+}
+
+define #I mul(#I e,#I f){
+      submit e*f;
+}
+
+define #I div(#I g,#I h){
+      submit g/h;
+}
+
+define #I mod(#I i,#I j){
+      submit i%j;
+}

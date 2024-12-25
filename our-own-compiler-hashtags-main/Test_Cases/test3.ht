@@ -1,0 +1,4 @@
+#I x = 5;
+#I y = 10;
+#I z = x + y;
+write(z); // Output: 15
